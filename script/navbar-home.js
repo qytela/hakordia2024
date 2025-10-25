@@ -7,7 +7,7 @@ class NavBarHome extends HTMLElement {
     this.innerHTML = `
         <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
         <div class="container">
-            <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Logo Hakordia 2023"></a>
+            <a class="navbar-brand" href="index.html"><img src="https://s6.imgcdn.dev/YykKPy.png" alt="Logo Hakordia 2025"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -23,21 +23,6 @@ class NavBarHome extends HTMLElement {
                     <li class="nav-item">
                         <a class="nav-link" href="#tema">Tema dan Logo</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#mainevent">Main Event</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#mainevent">Side Event</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#roadto">Road to</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#faq">FAQ</a>
-                    </li>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link" href="#berita">Berita</a>
-                    </li> -->
                     <li class="nav-item">
                         <a class="nav-link" href="#unduh">Unduh</a>
                     </li>

@@ -10,8 +10,8 @@ class FooterBar extends HTMLElement {
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-6 text-center">
-                        <img src="images/logo_footer.png" style="width: 300px !important; margin-bottom: 20px;" alt="">
-                        <!-- <img src="images/logo_footer.png" alt=""> -->
+                        <img src="https://s6.imgcdn.dev/Yya1Wi.md.png" style="width: 300px !important; margin-bottom: 20px;" alt="">
+                        <!-- <img src="https://s6.imgcdn.dev/Yya1Wi.md.png" alt=""> -->
                         <p class="mb-4">Sekretariat Panitia:<br>Gd. Komisi Pemberantasan Korupsi<br>Jl. Kuningan Persada Kav.4, Jakarta Selatan</p>
                         <div class="col-auto social-icons">
                             <a href="https://www.facebook.com/KomisiPemberantasanKorupsi" target="_blank"><i class='bx bxl-facebook'></i></a>
@@ -26,7 +26,7 @@ class FooterBar extends HTMLElement {
             </div>
         </div>
         <div class="footer-bottom text-center">
-            <p class="mb-0">Copyright KPK RI 2024. All rights Reserved</p>
+            <p class="mb-0">Copyright KPK RI 2025. All rights Reserved</p>
         </div>
     </footer>
       `;
