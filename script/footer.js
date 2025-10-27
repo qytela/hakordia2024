@@ -25,6 +25,10 @@ class FooterBar extends HTMLElement {
                 </div>
             </div>
         </div>
+
+        <div class="corner-background-1 top-left"></div>
+        <div class="corner-background-2 bottom-right"></div>
+
         <div class="footer-bottom text-center">
             <p class="mb-0">Copyright KPK RI 2025. All rights Reserved</p>
         </div>

@@ -594,10 +594,13 @@ section {
 }
 
 footer {
-  background: url(../../images/image_footer_2.jpg);
+  background-color: black;
+  position: relative;
+  overflow-y: hidden;
+  /* background: url(../../images/image_footer_2.jpg);
   background-size: cover;
   background-position: bottom;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 
 footer .footer-top {
@@ -802,18 +805,25 @@ input.form-control {
   .top-left {
     top: -0.5%;
     left: -0.5%;
-    background-image: url("https://s6.imgcdn.dev/YyDNSu.png");
+    background-image: url("https://s6.imgcdn.dev/Yyz5Bl.png");
   }
 
   .bottom-right {
     bottom: -12%;
     right: 0;
-    background-image: url("https://s6.imgcdn.dev/YyDuON.png");
+    background-image: url("https://s6.imgcdn.dev/YyzyId.png");
   }
 
   #tema-logo-carousel .item img {
     max-width: 80%;
     height: 340px;
     border-radius: 10px;
+  }
+
+  footer .corner-background-1 {
+    display: none;
+  }
+  footer .corner-background-2 {
+    display: none;
   }
 }
