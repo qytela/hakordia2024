@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="include/css/owl.carousel.min.css" />
   <link rel="stylesheet" href="include/css/owl.theme.default.min.css" />
   <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="include/css/style.css" />
   <script defer src="script/navbar-home.js"></script>
   <script defer src="script/footer.js"></script>
@@ -36,14 +37,14 @@
     <div class="slide">
       <img src="https://s6.imgcdn.dev/YykKPy.png" alt="">
 
-      <div class="corner-background-1 top-left"></div>
-      <div class="corner-background-2 bottom-right"></div>
+      <div data-aos="fade-down" data-aos-duration="2000" class="corner-background-1 top-left"></div>
+      <div data-aos="fade-up" data-aos-duration="2000" class="corner-background-2 bottom-right"></div>
     </div>
   </div>
 
   <!-- Tentang -->
-  <section id="tentang" class="slide1 bg-light">
-    <div class="container">
+  <section class="slide1 bg-light">
+    <div class="container" data-aos="fade-left" data-aos-duration="2000" id="tentang">
       <div class="row justify-content-center align-items-center">
         <div class="col-lg-7 py-5">
           <div class="intro text-start">
@@ -68,7 +69,7 @@
 
   <!-- Tema -->
   <section id="tema" class="slide1">
-    <div class="container">
+    <div class="container" data-aos="fade-right" data-aos-duration="2000">
       <div class="row justify-content-center align-items-center">
         <div class="col-lg-5 order-1 order-lg-0">
           <div class="owl-carousel owl-theme" id="tema-logo-carousel">
@@ -157,12 +158,13 @@
 
   <!-- Unduh -->
   <section id="unduh" class="text-center bg-light">
-    <div class="unduh container">
+    <div class="unduh container" data-aos="fade-left" data-aos-duration="2000">
       <div class="row">
         <div class="col-12">
           <div class="intro mb-50">
             <h6>Unduh</h6>
             <h1>HAKORDIA 2025</h1>
+            <p>Akses dokumen resmi dan materi publikasi Hari Anti Korupsi Sedunia 2025</p>
           </div>
         </div>
       </div>
@@ -210,10 +212,15 @@
   <!-- Footer -->
   <footer-bar></footer-bar>
 
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="include/js/jquery.min.js"></script>
   <script src="include/js/bootstrap.bundle.min.js"></script>
   <script src="include/js/owl.carousel.min.js"></script>
   <script src="include/js/app.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
