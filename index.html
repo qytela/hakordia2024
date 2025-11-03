@@ -238,9 +238,16 @@
   <script src="include/js/bootstrap.bundle.min.js"></script>
   <script src="include/js/owl.carousel.min.js"></script>
   <script src="include/js/app.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CFCMEZFST6"></script>
 
   <script>
     AOS.init();
+
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-CFCMEZFST6');
   </script>
 </body>
 
